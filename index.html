@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Animate</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<h1 class="head">Анимации на разные участки</h1>
+			<p class="title">Здесь присутцтвуют разнае виды анимаций,их можно совмещать например в рекламе/кнопках</p>
+			<nav class="menu-wrap">
+				<ul class="menu">
+					<li class="menu__items"><a href="#blocks" class="menu__link">Блоки</a>
+					</li>
+					<li class="menu__items"><a href="#buttons" class="menu__link">Кнопки</a>
+					</li>
+					<li class="menu__items"><a href="#imgs" class="menu__link">Картинки</a>
+					</li>
+					<li class="menu__items"><a href="#advertisings" class="menu__link">Реклама</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<section class="section-blocks" id="blocks">
+			<div class="container">
+				<h2 class="head">Блоки</h2>
+				<h2 class="title">Анимация с текстами в блоках <br>(наведите на блок)</h2>
+				<div class="blocks">
+					<div class="anim-block">
+						<p class="text text-none">1</p>
+						<p class="text text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, ea.</p>
+						<p class="text text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, ea.</p>
+						<p class="text text3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, ea.</p>
+					</div>
+					<div class="anim-block">
+						<p class="text text-none">2</p>
+						<p class="text text4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, ea.</p>
+						<p class="text text5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, ea.</p>
+						<p class="text text6">Lorem ipsum dolor sit amet,</p>
+						<p class="text text7"> adipisicing elit. Ipsam, ea.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-buttons" id="buttons">
+			<div class="container">
+				<h2 class="head">Кнопки</h2>
+				<h2 class="title"> Наведите на кнопку</h2>
+				<div class="blocks">
+					<div class="anim-block">
+						<button class="btn btn1">Первая кнопка</button>
+						<button class="btn btn2">Вторая кнопка</button>
+						<button class="btn btn3" id="btn3">Третья кнопка</button>
+						<div class="wrap-btn">
+							<p class="title">кликни на кнопку</p>
+							<span class="shadow"><button class="btn btn4">Четвертая
+									кнопка</button></span>
+						</div>
+					</div>
+					<div class="anim-block">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-imgs" id="imgs">
+			<div class="container">
+				<h2 class="head">Картинки</h2>
+				<div class="blocks">
+					<p class="click">Кликни на картинку</p>
+					<div class="anim-block">
+						<div class="wrap-img">
+							<span class="border border__lr"></span>
+							<span class="border border__tb"></span>
+							<img src="img/car.png" alt="" class="img">
+						</div>
+						<div class="wrap-img" id="img">
+							<img src="img/car.png" alt="" class="img">
+						</div>
+						<div class="modal">
+							<div class="popup">
+								<a href="#none" class="close"></a>
+								<img src="img/car.png" alt="" class="img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-advertisings">
+			<div class="container">
+				<h2 class="head">Рекламы</h2>
+				<div class="anim-block">
+					<span class="bacg"></span>
+					<span class="my"></span>
+					<p class="hello"><span class="hello__first">Привет, </span><span class="hello__two">тебе нужен сайт
+							почти за даром?</span>
+					</p>
+					<span class="fing"></span>
+					<p class="hello question">Ты хочешь сэкономить свои деньги?</p>
+					<p class="hello finish">Пиши мне в телеграм и обо всем договоримся</p>
+					<a href="https://teleg.run/nafanyaWeb" target="_blank" class="link">teleg.run/nafanyaWeb</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script src="js/javascript.js"></script>
+</body>
+
+</html>
